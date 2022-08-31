@@ -8,6 +8,7 @@ export const AddCategory = ({ onNewCategory }) => {
        // console.log(event.target.value);
         setInputValue(event.target.value);
     }
+
     
     const onSubmit = (event) => {
         event.preventDefault();
